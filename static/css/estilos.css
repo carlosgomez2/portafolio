@@ -1,0 +1,234 @@
+/*Iconos*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../css/fonts/icomoon.eot?3mjmqh');
+	src:url('../css/fonts/icomoon.eot?#iefix3mjmqh') format('embedded-opentype'),
+		url('../css/fonts/icomoon.woff?3mjmqh') format('woff'),
+		url('../css/fonts/icomoon.ttf?3mjmqh') format('truetype'),
+		url('../css/fonts/icomoon.svg?3mjmqh#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+	content: "\e601";
+}
+.icon-mark-github:before {
+	content: "\e600";
+}
+.icon-twitter:before {
+	content: "\ea91";
+}
+
+/*Utilidades*/
+.u-title{../css/
+	color: #36454f;
+	border-bottom: 4px dotted #97a4ae; 
+	font-size: 1.2em;
+	font-weight: 400;
+	padding-bottom: .75em;
+	text-align: center;
+}
+
+/*Menú*/
+.Mainmenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	font-weight: bold;
+	position: fixed;
+	left: 0;
+	right: 0;	
+	top: 0;
+}
+.Mainmenu-list{
+	margin: 0;
+	padding: 0;
+}
+.Mainmenu-item{
+	display: inline-block;
+}
+.Mainmenu-itemLink{
+	color: white;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+}
+.Mainmenu-itemLink:hover{
+	color: #00DBFF;
+	text-decoration: none;
+}
+
+/*Cabecera*/
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../images/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	text-align: center;
+	padding: 1.1em 0;
+}
+.Header-imageContainer{
+	margin: 0;
+}
+.Header-image{
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: rgba(0,0,0,0.6) 5px 5px 8px ;
+}
+.Header-name, .Header-link{
+	color: white;
+	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+}
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-link:hover{
+	color: #00DBFF;
+}
+.Header-name{
+	font-size: 1.7em;
+	font-weight: 300;
+	margin: 0;
+}
+
+/*Perfil*/
+.Profile{
+	text-align: center;
+}
+.Profile-description-redes{
+	margin-bottom: 2em;
+}
+.Profile-descriptionLink{
+	text-decoration: none;
+	color: #000;
+}
+.Profile-descriptionLink:hover{
+	text-decoration: none;
+	color: #00DBFF;
+}
+.Profile-link-twitter{
+	background: #4099FF;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em; 
+	border-radius: 2em;
+	margin-right: .5em;
+	box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+}
+.Profile-link-twitter:hover{
+	background: #66adff;
+}
+.Profile-link-fb{
+	background: #3B5998;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em; 
+	border-radius: 2em;
+	margin-right: .5em;
+	box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+}
+.Profile-link-fb:hover{
+	background: #627aac;
+}
+.Profile-link-gh{
+	background: #000000;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em; 
+	border-radius: 2em;
+	margin-right: .5em;
+	box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+}
+.Profile-link-gh:hover{
+	background: #639bef;
+}
+
+/*Trabajo*/
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+.Work-imageContainer{
+	margin: 0;
+}
+.Work-description{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+
+/*Pie de pagína*/
+.Footer{
+	background-image: url('../images/contact-1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 3em;
+	text-align: center;
+}
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+}
+.Footer-left{
+	display: inline-block;
+	max-width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+.Footer-title, .Footer-description{
+	color: white;
+}
+.Footer-descriptionWarn{
+	color: red;
+}
+.Footer-formInput,.Footer-textArea{
+	background: white;
+	border: none;
+	display: block;
+	border-radius: .5em;
+	padding: .5em;
+	margin: 0 auto 1em;
+	width: 100%;
+}
+.Footer-textArea{
+	height: 160px;
+}
+.Footer-button{
+	background: #00A6F2;
+	border: 1px solid #00A6F2;
+	color: #fff;
+	padding: 0.5em 2em;
+	border-radius: 0.5em;
+	outline:none;
+}
+.Footer-button:hover{
+	background: #FFF;
+	color: #00A6F2;
+}
