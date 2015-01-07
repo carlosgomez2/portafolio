@@ -1,0 +1,17 @@
+commit 3eab5e46fd23091b4e0e25efe802650b51b935f6
+Author: carlosgomez2 <jcarlos.gomez2@yahoo.com>
+Date:   Mon Jan 5 22:37:42 2015 -0600
+
+    Cambios en la descripcion de mi perfil
+
+commit 1ed0130f249b9827ce22c21630b52f424f6fe050
+Author: Carlos Gómez <jcarlos.gomez2@yahoo.com>
+Date:   Wed Dec 17 16:54:16 2014 -0600
+
+    Se agregaron preferencias en mi perfil
+
+commit e54095e54d04d1ff3702c540721b50f28d0f15d2
+Author: Carlos Gómez <jcarlos.gomez2@yahoo.com>
+Date:   Wed Dec 17 16:18:34 2014 -0600
+
+    Estos son los archivos base de mi portafolio
