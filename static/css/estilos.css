@@ -257,8 +257,8 @@
 	height: 160px;
 }
 .Footer-button{
-	background: #00A6F2;
-	border: 1px solid #00A6F2;
+	background: #00DBFF;
+	border: 1px solid #00DBFF;
 	color: #fff;
 	padding: 0.5em 2em;
 	border-radius: 0.5em;
@@ -266,7 +266,7 @@
 }
 .Footer-button:hover{
 	background: #FFF;
-	color: #00A6F2;
+	color: #00DBFF;
 }
 .Footer-poweredby{
 	background: #1E1E1E;
