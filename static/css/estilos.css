@@ -154,6 +154,7 @@
 }
 .Profile-link-gh{
 	display: inline-block;
+	margin-top: 1em;
 	background: #000000;
 	color: white;
 	text-decoration: none;
