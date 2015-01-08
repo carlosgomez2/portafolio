@@ -245,13 +245,22 @@
 	color: red;
 }
 .Footer-formInput,.Footer-textArea{
-	background: white;
+	
+	margin:0 0 1em;
+    overflow:hidden;
+    padding: 0.8em;
+    -webkit-border-radius: 0.6em;
+    border-radius: 0.6em;
+    background-color:#F5F5F5;
+    border:1px solid #DDDDDD;
+
+	/*background: white;
 	border: none;
 	display: block;
 	border-radius: .5em;
 	padding: .5em;
 	margin: 0 auto 1em;
-	width: 100%;
+	width: 100%;*/
 }
 .Footer-textArea{
 	height: 160px;
