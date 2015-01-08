@@ -221,10 +221,13 @@
 
 /*Pie de pagína*/
 .Footer{
-	background-image: url('../images/contact-1.jpg');
+	/*background-image: url('../images/contact-1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
+
+	background: #2b2b2b;
+
 	padding-bottom: 3em;
 	text-align: center;
 }
@@ -253,6 +256,8 @@
     border-radius: 0.6em;
     background-color:#F5F5F5;
     border:1px solid #DDDDDD;
+    display: inline-block;
+    font-size: 0.8em;
 
 	/*background: white;
 	border: none;
