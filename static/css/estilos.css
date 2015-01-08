@@ -125,6 +125,7 @@
 	color: #00DBFF;
 }
 .Profile-link-twitter{
+	display: inline-block;
 	background: #4099FF;
 	color: white;
 	text-decoration: none;
@@ -138,6 +139,7 @@
 	background: #66adff;
 }
 .Profile-link-fb{
+	display: inline-block;
 	background: #3B5998;
 	color: white;
 	text-decoration: none;
@@ -151,6 +153,7 @@
 	background: #627aac;
 }
 .Profile-link-gh{
+	display: inline-block;
 	background: #000000;
 	color: white;
 	text-decoration: none;
@@ -231,4 +234,14 @@
 .Footer-button:hover{
 	background: #FFF;
 	color: #00A6F2;
+}
+.Footer-poweredby{
+	background: #1E1E1E;
+	text-align: center;
+	display: block;
+	color: white;
+}
+.Footer-poweredbyRight{
+	display: inline-block;
+	font-size: 0.8em;
 }
