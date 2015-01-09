@@ -208,25 +208,20 @@
 
 /*Pie de pagína*/
 .Footer{
-	/*background-image: url('../images/contact-1.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;*/
-
 	background: #2b2b2b;
-
 	padding-bottom: 3em;
 	text-align: center;
-}
-.Footer-form{
-	text-align: center;
-	display: inline-block;
+		
 }
 .Footer-left{
 	display: inline-block;
 	max-width: 32em;
 	text-align: center;
 	vertical-align: top;
+}
+.Footer-form{
+	text-align: center;
+	display: inline-block;
 }
 .Footer-title, .Footer-description{
 	color: white;
@@ -245,6 +240,7 @@
     border:1px solid #DDDDDD;
     display: inline-block;
     font-size: 0.8em;
+	width: 300px;
 
 	/*background: white;
 	border: none;
@@ -255,7 +251,8 @@
 	width: 100%;*/
 }
 .Footer-textArea{
-	height: 160px;
+	width: 300px;
+	height: 150px;
 }
 .Footer-button{
 	background: #515151;
@@ -281,7 +278,7 @@
 }
 .Footer-button:hover{
 	background: #00DBFF;
-	color: #00DBFF;
+	color: #FFF;
 }
 .Footer-poweredby{
 	background: #1E1E1E;
