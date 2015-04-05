@@ -34,20 +34,8 @@
 	content: "\ea91";
 }
 
-/*General*/
-a{
-	text-decoration: none;
-	/*color: #2ad6ad;*/
-	color: #8d29d4;
-}
-a:hover{
-	color: #2ad6ad;
-	/*color: #8d29d4;*/
-}
-
-
 /*Utilidades*/
-.u-title{
+.u-title{../css/
 	color: #36454f;
 	border-bottom: 4px dotted #97a4ae; 
 	font-size: 1.2em;
@@ -55,14 +43,10 @@ a:hover{
 	padding-bottom: .75em;
 	text-align: center;
 }
-.wrapper{
-	max-width: 1000px;
-	margin: auto;
-}
 
 /*Menú*/
 .Mainmenu{
-	background: #1d2123;
+	background: #1E1E1E;
 	text-align: center;
 	height: 3.75em;
 	font-weight: bold;
@@ -70,7 +54,7 @@ a:hover{
 	left: 0;
 	right: 0;	
 	top: 0;
-	/*box-shadow: 0 0 0.4em 0.4em #383838; rgba(0,0,0,0.6) 0px 0px 10px 0px;*/
+	
 }
 .Mainmenu-list{
 	margin: 0;
@@ -103,14 +87,14 @@ a:hover{
 		transition-property: color, background-color;
 	}
 .Mainmenu-itemLink:hover, .Mainmenu-itemLink:focus, .Mainmenu-itemLink:active {
-    background-color: #1cff94;
+    background-color: #00DBFF;
     color: white;
 }
 
 /*Cabecera*/
 .Header{
 	margin-top: 3.75em;
-	background-image: url('../images/portada3.jpg');
+	background-image: url('../images/portada3.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover; 
@@ -124,8 +108,8 @@ a:hover{
 .Header-image{
 	/*border: 4px rgba(0,0,0,0.04);*/
 	border-radius: 50%;
-	border: 3px solid #1cff94;/*rgba(255, 255, 255, .4)*/ 
-	/*box-shadow: rgba(0,0,0,0.6) 5px 5px 8px ;*/
+	border: 5px solid rgba(255, 255, 255, .4);
+	box-shadow: rgba(0,0,0,0.6) 5px 5px 8px ;
     -webkit-background-clip: padding-box; /* Para Safari */
     background-clip: padding-box; /* Para IE9+, Firefox 4+, Opera, Chrome */
 }
@@ -139,7 +123,7 @@ a:hover{
 	text-decoration: none;
 }
 .Header-link:hover{
-	color: #1cff94;
+	color: #00DBFF;
 }
 .Header-name{
 	font-size: 1.7em;
@@ -154,14 +138,14 @@ a:hover{
 .Profile-description-redes{
 	margin-bottom: 2em;
 }
-/*.Profile-descriptionLink{
+.Profile-descriptionLink{
 	text-decoration: none;
-	color: #3a454c;
+	color: #000;
 }
 .Profile-descriptionLink:hover{
 	text-decoration: none;
-	color: #1cff94;
-}*/
+	color: #00DBFF;
+}
 .Profile-link-twitter{
 	display: inline-block;
 	background: #4099FF;
@@ -229,26 +213,15 @@ a:hover{
 /*Pie de pagína*/
 .Footer{
 	background: #2b2b2b;
-	padding-bottom: 1.5em;
+	padding-bottom: 3em;
 	text-align: center;
 		
 }
 .Footer-left{
 	display: inline-block;
-	max-width: 31.25em;
+	max-width: 32em;
 	text-align: center;
-	vertical-align: middle;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-.Footer-right{
-	display: inline-block;
-	max-width: 31.25em;
-	text-align: center;
-	vertical-align: middle;
-	margin-top: 1.5em;
-	padding-left: 1em;
-	padding-right: 1em;
+	vertical-align: top;
 }
 .Footer-form{
 	text-align: center;
@@ -266,8 +239,8 @@ a:hover{
     padding: 0.8em;
     -webkit-border-radius: 0.6em;
     border-radius: 0.6em;
-    background-color:#3a454c;
-    border:1px solid #1cff94;
+    background-color:#F5F5F5;
+    border:1px solid #DDDDDD;
     display: inline-block;
     font-size: 0.8em;
 	width: 300px;
@@ -277,11 +250,11 @@ a:hover{
 	height: 150px;
 }
 .Footer-button{
-	background: #2b2b2b;
-	border: 1px solid #1cff94;
+	background: #515151;
+	border: 1px solid #454545;
 	color: #fff;
 	padding: 0.5em 2em;
-	border-radius: 3px;
+	border-radius: 0.5em;
 	outline:none;
 
 	/* Efecto Fade */
@@ -299,11 +272,11 @@ a:hover{
 		  transition-property: color, background-color;
 }
 .Footer-button:hover{
-	background: #1cff94;
-	color: #000;
+	background: #00DBFF;
+	color: #FFF;
 }
 .Footer-poweredby{
-	background: #1d2123;
+	background: #1E1E1E;
 	text-align: center;
 	display: block;
 	color: white;
