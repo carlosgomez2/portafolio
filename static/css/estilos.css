@@ -35,6 +35,10 @@
 }
 
 /*General*/
+body{
+	background-color: #2b2b2b;
+	color: white;
+}
 a{
 	text-decoration: none;
 	/*color: #2ad6ad;*/
@@ -48,8 +52,8 @@ a:hover{
 
 /*Utilidades*/
 .u-title{
-	color: #36454f;
-	border-bottom: 4px dotted #97a4ae; 
+	color: #8d29d4;
+	border-bottom: 1px solid #8d29d4; 
 	font-size: 1.2em;
 	font-weight: 400;
 	padding-bottom: .75em;
@@ -154,14 +158,6 @@ a:hover{
 .Profile-description-redes{
 	margin-bottom: 2em;
 }
-/*.Profile-descriptionLink{
-	text-decoration: none;
-	color: #3a454c;
-}
-.Profile-descriptionLink:hover{
-	text-decoration: none;
-	color: #2ad6ad;
-}*/
 .Profile-link-twitter{
 	display: inline-block;
 	background: #4099FF;
@@ -172,9 +168,6 @@ a:hover{
 	margin-right: .5em;
 	box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
-}
-.Profile-link-twitter:hover{
-	background: #66adff;
 }
 .Profile-link-fb{
 	display: inline-block;
@@ -187,9 +180,6 @@ a:hover{
 	box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 }
-.Profile-link-fb:hover{
-	background: #627aac;
-}
 .Profile-link-gh{
 	display: inline-block;
 	margin-top: 1em;
@@ -201,6 +191,12 @@ a:hover{
 	margin-right: .5em;
 	box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
+}
+.Profile-link-twitter:hover{
+	background: #66adff;
+}
+.Profile-link-fb:hover{
+	background: #627aac;
 }
 .Profile-link-gh:hover{
 	background: #639bef;
@@ -233,7 +229,7 @@ a:hover{
 
 /*Pie de pagína*/
 .Footer{
-	background: #2b2b2b;
+	background: #404040;
 	padding-bottom: 1.5em;
 	text-align: center;
 		
