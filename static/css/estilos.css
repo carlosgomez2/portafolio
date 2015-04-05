@@ -103,7 +103,7 @@ a:hover{
 		transition-property: color, background-color;
 	}
 .Mainmenu-itemLink:hover, .Mainmenu-itemLink:focus, .Mainmenu-itemLink:active {
-    background-color: #1cff94;
+    background-color: #2ad6ad;
     color: white;
 }
 
@@ -124,7 +124,7 @@ a:hover{
 .Header-image{
 	/*border: 4px rgba(0,0,0,0.04);*/
 	border-radius: 50%;
-	border: 3px solid #1cff94;/*rgba(255, 255, 255, .4)*/ 
+	border: 3px solid #2ad6ad;/*rgba(255, 255, 255, .4)*/ 
 	/*box-shadow: rgba(0,0,0,0.6) 5px 5px 8px ;*/
     -webkit-background-clip: padding-box; /* Para Safari */
     background-clip: padding-box; /* Para IE9+, Firefox 4+, Opera, Chrome */
@@ -139,7 +139,7 @@ a:hover{
 	text-decoration: none;
 }
 .Header-link:hover{
-	color: #1cff94;
+	color: #2ad6ad;
 }
 .Header-name{
 	font-size: 1.7em;
@@ -160,7 +160,7 @@ a:hover{
 }
 .Profile-descriptionLink:hover{
 	text-decoration: none;
-	color: #1cff94;
+	color: #2ad6ad;
 }*/
 .Profile-link-twitter{
 	display: inline-block;
@@ -205,6 +205,11 @@ a:hover{
 .Profile-link-gh:hover{
 	background: #639bef;
 }
+.Profile-link-twitter:hover, .Profile-link-fb:hover, .Profile-link-gh:hover{
+	color: white;
+}
+
+
 
 /*Trabajo*/
 .Work{
@@ -267,7 +272,7 @@ a:hover{
     -webkit-border-radius: 0.6em;
     border-radius: 0.6em;
     background-color:#3a454c;
-    border:1px solid #1cff94;
+    border:1px solid #2ad6ad;
     display: inline-block;
     font-size: 0.8em;
 	width: 300px;
@@ -278,7 +283,7 @@ a:hover{
 }
 .Footer-button{
 	background: #2b2b2b;
-	border: 1px solid #1cff94;
+	border: 1px solid #2ad6ad;
 	color: #fff;
 	padding: 0.5em 2em;
 	border-radius: 3px;
@@ -299,7 +304,7 @@ a:hover{
 		  transition-property: color, background-color;
 }
 .Footer-button:hover{
-	background: #1cff94;
+	background: #2ad6ad;
 	color: #000;
 }
 .Footer-poweredby{
