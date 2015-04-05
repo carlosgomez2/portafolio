@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 	<Head>
-		<title>Carlos Gómez</title>
+		<title>Carlos Gómez | Desarrollo Web, Soporte Técnico, Redes</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<meta name="description" content="Perfil profesional de Carlos Gómez" />
-		<meta name="keywords" content="ingeniero, técnico, mantenimiento, diseño de paginas, html, css" />
+		<meta name="description" content="Soy Ingeniero en Sistemas, me dedico al desarrollo web y al soporte tecnico y mantenimiento de sistemas." />
 		<link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/estilos.css" />
 		<link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon" />
 		<!-- <link rel="icon" href="../static/images/favicon.ico" type="image/x-icon"> -->
+		<script src="static/js/smooth-scroll.js"></script>
 	</head>
 	<body>
 		<header id="yo" class="Header">
 		
-
-			<nav class="Mainmenu">
-				<ul class="Mainmenu-list">
-					<li class="Mainmenu-item">
-						<a class="Mainmenu-itemLink" href="#yo" class="Header">Inicio</a>
-					</li>
-					<li class="Mainmenu-item">
-						<a class="Mainmenu-itemLink" href="#perfil">Perfil</a>
-					</li>
-					<li class="Mainmenu-item">
-						<a class="Mainmenu-itemLink" href="#trabajo">Trabajo</a>
-					</li>
-					<li class="Mainmenu-item">
-						<a class="Mainmenu-itemLink" href="#contacto">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-
+			<div class="wrapper-menu">
+				<nav class="Mainmenu">
+					<ul class="Mainmenu-list">
+						<li class="Mainmenu-item">
+							<a class="Mainmenu-itemLink" href="#yo" data-scroll>Inicio</a>
+						</li>
+						<li class="Mainmenu-item">
+							<a class="Mainmenu-itemLink" href="#perfil" data-scroll>Perfil</a>
+						</li>
+						<li class="Mainmenu-item">
+							<a class="Mainmenu-itemLink" href="#trabajo" data-scroll>Trabajo</a>
+						</li>
+						<li class="Mainmenu-item">
+							<a class="Mainmenu-itemLink" href="#contacto" data-scroll>Contacto</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
 
 
@@ -141,6 +141,9 @@
 				<strong>Carlos Gómez</strong></p>
 				<p class="Footer-poweredbyRight"> | © Derechos Reservados, 2015</p>
 			</div>
+		<script>
+	    smoothScroll.init();
+		</script>
 	</body>
 </html>
 
