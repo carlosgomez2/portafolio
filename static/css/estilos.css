@@ -132,8 +132,9 @@ a:hover{
 }*/
 
 /*Menú de Navegación*/
-.Mainmenu{
-	/*background: #1d2123;*/
+
+/*.Mainmenu{
+	background: #1d2123;
 	text-align: center;
 	height: 3.75em;
 	font-weight: bold;
@@ -142,17 +143,17 @@ a:hover{
 	right: 0;	
 	top: 0;
 	
-}
+}*/
+
 .Mainmenu-list{
 	margin: 0;
 	padding: 0;
 }
 .Mainmenu-item{
 	display: inline-block;
-
 }
 .Mainmenu-itemLink {
-	width: 80px;
+	/*width: 80px; ESTO SE FUE AL MEDIA QUERY */
 	color: white;
 	text-decoration: none;
 	line-height: 3.75em;
@@ -173,10 +174,10 @@ a:hover{
 		-webkit-transition-property: color, background-color;
 		transition-property: color, background-color;
 	}
-.Mainmenu-itemLink:hover, .Mainmenu-itemLink:focus, .Mainmenu-itemLink:active {
+/*.Mainmenu-itemLink:hover, .Mainmenu-itemLink:focus, .Mainmenu-itemLink:active {
     background-color: #2ad6ad;
-    color: white;
-}
+    color: white;  ESTO SE FUE AL MEDIA QUERY
+}*/
 
 /*Cabecera*/
 .Header{
@@ -195,7 +196,7 @@ a:hover{
 .Header-image{
 	margin-top: 3em;
 	border-radius: 50%;
-	border: 3px solid #2ad6ad;/*rgba(255, 255, 255, .4)*/ 
+	border: 3px solid #2ad6ad;
     -webkit-background-clip: padding-box; /* Para Safari */
     background-clip: padding-box; /* Para IE9+, Firefox 4+, Opera, Chrome */
 }

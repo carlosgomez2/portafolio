@@ -21,13 +21,13 @@ header nav ul {
 }
  
 header nav ul li {
-	display:inline-block;
+	display: inline-block;
 	position: relative;
 }
  
-/*header nav ul li:hover {
-	background:#E6344A;
-}*/
+header nav ul li:hover {
+	background: #2ad6ad;
+}
  
 header nav ul li a {
 	/*color:#fff;*/
@@ -36,11 +36,11 @@ header nav ul li a {
 	/*padding: 20px;*/
 }
  
-header nav ul li a span {
+/*header nav ul li a span {
 	margin-right:10px;
-}
+}*/
  
-header nav ul li:hover .children {
+/*header nav ul li:hover .children {
 	display:block;
 }
  
@@ -75,7 +75,7 @@ header nav ul li .caret {
 	top:3px;
 	margin-left:10px;
 	margin-right:0px;
-}
+}*/
  
 @media screen and (max-width: 800px) {
 	body {
@@ -99,24 +99,33 @@ header nav ul li .caret {
 		font-weight: bold;
 		text-decoration: none;
 	}
- 
+ 	.Mainmenu-item{
+		display: block;
+	}
+	.Mainmenu-itemLink{
+		width: 100%;
+	}
+	.Mainmenu-itemLink:hover, .Mainmenu-itemLink:focus, .Mainmenu-itemLink:active {
+    	color: white;
+	}
 	.menu_bar span {
 		float: right;
-		font-size: 40px;
+		font-size: 2.5em;
 	}
- 
 	header nav {
-		width: 80%;
-		height: calc(100% - 80px);
+		width: 60%;
+		height: 100%; /*calc(100% - 80px)*/
 		position: fixed;
 		right:100%;
 		margin: 0;
-		overflow: scroll;
+		overflow: auto; /*si hay un excedente de 
+		categorias <auto> dará barras de desplazamiento*/
+		background:#1d2123;
 	}
  
 	header nav ul li {
 		display: block;
-		border-bottom:1px solid rgba(255,255,255,.5);
+		border-bottom:1px solid #8d29d4;
 	}
  
 	header nav ul li a {
@@ -156,5 +165,13 @@ header nav ul li .caret {
 	top: 0;
 	margin: 0;
 	padding: 0;
-}
+	}
+	.Mainmenu-itemLink{
+		width: 80px;
+	}
+	.Mainmenu-itemLink:hover, .Mainmenu-itemLink:focus, .Mainmenu-itemLink:active {
+	    background-color: #2ad6ad;
+	    color: white;
+	}
+
 }
