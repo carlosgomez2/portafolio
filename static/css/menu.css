@@ -81,7 +81,6 @@ header nav ul li .caret {
 	body {
 		padding-top: 3.75em;
 	}
- 
 	.menu_bar {
 		display:block;
 		width:100%;
@@ -89,14 +88,15 @@ header nav ul li .caret {
 		top:0;
 		background:#1d2123;
 	}
- 
+	.bt-menu{
+		text-align: left;
+	}
 	.menu_bar .bt-menu {
 		display: block;
 		padding: 20px;
 		color: #fff;
 		overflow: hidden;
-		font-size: 25px;
-		font-weight: bold;
+		font-size: 1.5625em;
 		text-decoration: none;
 	}
  	.Mainmenu-item{
@@ -110,7 +110,7 @@ header nav ul li .caret {
 	}
 	.menu_bar span {
 		float: right;
-		font-size: 2.5em;
+		font-size: 1em;
 	}
 	header nav {
 		width: 80%;
@@ -121,33 +121,15 @@ header nav ul li .caret {
 		overflow: auto; /*si hay un excedente de 
 		categorias <auto> dará barras de desplazamiento*/
 		background:#1d2123;
-	}
- 
+	} 
 	header nav ul li {
 		display: block;
 		border-bottom:1px solid #8d29d4;
 	}
- 
 	header nav ul li a {
 		display: block;
 	}
  
-	header nav ul li:hover .children {
-		display: none;
-	}
- 
-	header nav ul li .children {
-		width: 100%;
-		position: relative;
-	}
- 
-	header nav ul li .children li a {
-		margin-left:20px;
-	}
- 
-	header nav ul li .caret {
-		float: right;
-	}
 }
 
 @media screen and (min-width: 800px) {
@@ -155,16 +137,16 @@ header nav ul li .caret {
 		margin-top: 3.75em;
 	}	
 	.Mainmenu-list{
-	background: #1d2123;
-	text-align: center;
-	height: 3.75em;
-	font-weight: bold;
-	position: fixed;
-	left: 0;
-	right: 0;	
-	top: 0;
-	margin: 0;
-	padding: 0;
+		background: #1d2123;
+		text-align: center;
+		height: 3.75em;
+		font-weight: bold;
+		position: fixed;
+		left: 0;
+		right: 0;	
+		top: 0;
+		margin: 0;
+		padding: 0;
 	}
 	.Mainmenu-itemLink{
 		width: 80px;
