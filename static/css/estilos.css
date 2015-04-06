@@ -53,17 +53,17 @@
 
 /*General*/
 body{
+	font-family: 'Open Sans';
 	background-color: #2b2b2b;
 	color: white;
+	padding: 0;
 }
 a{
 	text-decoration: none;
-	/*color: #2ad6ad;*/
 	color: #8d29d4;
 }
 a:hover{
-	color: #2ad6ad;
-	/*color: #8d29d4;*/
+	/*color: #2ad6ad;*/
 }
 
 /*Utilidades*/
@@ -131,9 +131,9 @@ a:hover{
   content: "\78"; 
 }*/
 
-
+/*Menú de Navegación*/
 .Mainmenu{
-	background: #1d2123;
+	/*background: #1d2123;*/
 	text-align: center;
 	height: 3.75em;
 	font-weight: bold;
@@ -180,7 +180,7 @@ a:hover{
 
 /*Cabecera*/
 .Header{
-	margin-top: 3.75em;
+	/*margin-top: 3.75em;*/
 	background-image: url('../images/portada3.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -193,24 +193,19 @@ a:hover{
 	/*margin-top: 0.5em;*/
 }
 .Header-image{
-	/*border: 4px rgba(0,0,0,0.04);*/
 	margin-top: 3em;
 	border-radius: 50%;
 	border: 3px solid #2ad6ad;/*rgba(255, 255, 255, .4)*/ 
-	/*box-shadow: rgba(0,0,0,0.6) 5px 5px 8px ;*/
     -webkit-background-clip: padding-box; /* Para Safari */
     background-clip: padding-box; /* Para IE9+, Firefox 4+, Opera, Chrome */
-}
-.Header-description{
-	font-family: 'Exo';
-/*	font-size: 1.2em;*/
-	font-weight: 900;
 }
 .Header-name, .Header-link{
 	color: white;
 	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 }
 .Header-link{
+	font-family: 'Exo';
+	font-weight: 900;
 	font-size: 2.2em;
 	font-weight: bold;
 	text-decoration: none;
@@ -238,9 +233,8 @@ a:hover{
 	color: white;
 	text-decoration: none;
 	padding: .5em 1em; 
-	border-radius: 2em;
+	border-radius: 3px;
 	margin-right: .5em;
-	/*box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;*/
 	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 }
 .Profile-link-fb{
@@ -249,9 +243,8 @@ a:hover{
 	color: white;
 	text-decoration: none;
 	padding: .5em 1em; 
-	border-radius: 2em;
+	border-radius: 3px;
 	margin-right: .5em;
-	/*box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;*/
 	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 }
 .Profile-link-gh{
@@ -261,9 +254,8 @@ a:hover{
 	color: white;
 	text-decoration: none;
 	padding: .5em 1em; 
-	border-radius: 2em;
+	border-radius: 3px;
 	margin-right: .5em;
-	/*box-shadow: rgba(0,0,0,0.6) 2px 2px 5px;*/
 	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 }
 .Profile-link-twitter:hover{
@@ -386,4 +378,5 @@ a:hover{
 	display: inline-block;
 	font-size: 0.8em;
 }
+
 
