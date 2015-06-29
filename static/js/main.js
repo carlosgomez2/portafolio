@@ -1,9 +1,12 @@
 $(document).ready(main);
  
 var contador = 1,
-	myEl = document.getElementsByClassName("Mainmenu-itemLink");
+	menuLink = document.getElementsByClassName("Mainmenu-itemLink");
+	headerImage = document.getElementsByClassName("Header-image");
  
 function main () {
+
+//Hide|Show Menu Bar on button Menu
 	$('.menu_bar').click(function(){
 		if (contador == 1) {
 			$('nav').animate({
@@ -24,5 +27,10 @@ function main () {
 			left: '-100%'
 		});
 	});
+
+//FadeIn Header Image
+	$('.Header-image').fadeIn('slow');
+
+
 }
 
